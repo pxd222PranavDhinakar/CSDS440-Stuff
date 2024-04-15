@@ -1,0 +1,11 @@
+- To estimate perceptron parameters we define a *loss function* that *measures* the *distance* between our *estimated* labels and the *true* labels. 
+- The gradient descent procedure will *converge* to a *global minimum* because *the loss function is convex*
+- We can also use *stochastic* gradient descent. This is different from regular GD because *instead of summing the gradients across all examples, we updates separately for each example*. • 
+- SGD is useful if the function has multiple *local optima*. It can also be used during *online learning* 
+- The *XOR* function cannot be learned with a perceptron.
+- In a general neural network, there are layers of *hidden* units between input and output.
+- Every Boolean function can be represented by a network with *one hidden layer*.
+- Every bounded continuous function can be represented by a network with *one hidden layers*.
+- The activation functions in an ANN must be *non-linear* for learning
+- The sigmoid function outputs $h(x;w)=(1 + e^{-w\times x})^{-1}$
+- Backpropagation performs *layer-wise* gradient descent. First, information flows *forward* through the network to compute the *output*. Then, the *loss* flows backward to compute the gradients.

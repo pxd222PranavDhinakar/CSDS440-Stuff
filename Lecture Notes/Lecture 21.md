@@ -1,0 +1,10 @@
+- In the dual form of the SVM, examples appear as a *dot product*. 
+- We define the *kernel function K(x,y)* as $\phi(x)$ dot $\phi(y)$
+- In many cases, K can be computed more efficiently than the dot product of the feature maps. This is called the *kernel trick*.
+- Intuitively, a kernel function measures the *similarity* between examples.
+- To be a valid kernel function, a function must satisfy *Mercer's* conditions. These say that the kernel matrix must be *symmetric positive and semidefinite*.
+- Kernels can be applied to many other problems using the *Representer Theorem*
+- This says that any optimization program of the form minf (A) +(B) has a solution which is f=sumi(a)(b)(c). 
+- The SVM uses the *Hinge* loss function whereas Logistic Regression uses the *Logistic* loss function.
+- What are some of the pros of SVMs? Cons? 
+- An ensemble is a *collection* of *classifiers* combined via *majority voting*

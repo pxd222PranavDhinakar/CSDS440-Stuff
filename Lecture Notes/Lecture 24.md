@@ -1,0 +1,13 @@
+- Bias variance analysis studies the sources of *generalization error*. It gives quantitative insight into  *inductive bias*.
+- We can decompose the EGE(Expected Generalization Error) of any learning algorithm into three components: *noise, variance and bias*.
+- What does the first component describe?
+	- Describes the error in the learned model's predictions due to noise in the target variable $y$
+- What does the second component describe?
+	- Refers to the error in the learned model's predictions due to the choice of the training sample. It describes how much the prediction error varies as the hypothesis $h$ is trained using different training sets
+- What does the third component describe?
+	- Represents the systematic error in predictions due to the choice of $h$ as the concept class. It describes the average error of $h$ across all training sets and quantifies the inductive bias
+- For an arbitrary loss function, the main prediction is the label for each point that *minimizes* the expected loss with respect to the *predicted label* (in expectation over *training sets*).
+- Using this, the bias error is the loss of the *main prediction* with respect to the *true label*. The variance error is the loss of the *learned hypothesis* with respect to the *main prediction*. The noise error is the loss of the *true label (y)* with respect to the *true label (f(x))*.
+- We must try to balance *bias* and *variance*. But there is a tradeoff because *lower bias* implies *higher variance*.
+- High *variance* leads to *overfitting*. But controlling for *overfitting* introduces *bias*.
+- 

@@ -1,0 +1,14 @@
+- In the feature selection problem we seek to identify features used by *wrapper methods*.
+- Possible issues: FS(Feature Selection) needs a *criterion score*, which is generally intractable. Also there is a *complexity* and *efficiency* problem. 
+- Filter methods *decouple* the FS and learning tasks. They *score* each feature in turn and keep the *best ones*. 
+- Mutual information checks *revelence* but not *redundancy*. • We fix this by moving to a *sequential* procedure. Each feature is scored based on *its individual contribution to the prediction model, accounting for the presence of other features.*.
+- A reasonable filter method is the *information theoretic* criterion, which scores a feature by *mutual information or information gain*.
+- What are some pros and cons of filter methods?
+- Wrapper methods work by *searching* through the feature space using the *learner's performance* as a guide. 
+- In Forward feature selection we start with an *empty* set of features. We test each feature to see if the *generalization error* improves when *added* to the set. To do this we need a *validation* set. We *add* the *best* feature to our feature set and iterate. 
+- To obtain valid empirical results we must do FS *inside* each fold. This is because *feature selection must be part of the cross-validation process to ensure that the validation of the model is accurate and not biased by the feature selection process​*. 
+- A problem with forward FS is that it may require "internal cross-validation" or a "validation set" to evaluate each added feature's impact on the generalization error. This can be computationally intensive, as it involves training and evaluating a classifier for each candidate feature addition 
+- In Backward feature selection we start with a *full* set of features. We test each feature to see if the *generalization error* improves when *removed* from the set. To do this we need a *validation* set. We *remove* the *worst* feature from our feature set and iterate.
+- A problem with backward FS is ______.
+- How does boosted feature selection work?
+- What are some pros and cons of wrapper methods?

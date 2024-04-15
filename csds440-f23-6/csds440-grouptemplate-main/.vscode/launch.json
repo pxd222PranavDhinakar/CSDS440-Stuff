@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "name": "Python: DTree",
+            "type": "python",
+            "request": "launch",
+            "program": "/Users/pranavdhinakar/Documents/School Work/Fall 2023 Classes/CSDS 440 Machine Learning/csds440-f23-6/csds440-grouptemplate-main/src/dtree.py",
+            "cwd": "/Users/pranavdhinakar/Documents/School Work/Fall 2023 Classes/CSDS 440 Machine Learning/csds440-f23-6/csds440-grouptemplate-main/src",
+            "console": "integratedTerminal",
+            "args": ["../440data/toy",
+                    "5",
+                    "--use-gain-ratio"]  
+        }
+    ]
+}

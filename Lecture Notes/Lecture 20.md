@@ -1,0 +1,12 @@
+- The *margin* of the classifier is the distance it can *safely navigate without making errors*. It is important because maximizing this improves the *robustness to errors in the data* of the classifier. • 
+- The SVM is the *linear classifier* with the *maximum margin*.
+- The margin can be computed to be the *inverse of the norm of the weight vector*. This is another rationale for overfitting control methods such as *weight decay*.
+- In an SVM, each example in the training set becomes a *constraint*
+- In order to accommodate *linearly inseperable data*, we add *slack* variables to the SVM program.
+- We must also add a term to minimize the *sum of slacks* to the objective function.
+- A tradeoff hyperparameter balances *generalization* and *error*
+- The entire program is *convex*.
+- The *generalized Lagrangian* lifts the constraints in an optimization program into the objective function. It is equal to the *primal* if the constraints are met. 
+- To get the dual, we *swap the min and max* in the primal formulation. 
+- At the optimal solution, for each example, either the *Lagrange Multiplier* is zero or the term y(wx+b)-1 is zero. This is called *dual complementarity*. If the *Lagrange Multiplier* is NOT zero, the point is a *Support Vector*
+

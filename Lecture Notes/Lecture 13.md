@@ -1,0 +1,10 @@
+- Having very few layers is problematic because they will need many *nodes* and not have *structure*. 
+- A further motivation is from  *Cascade Correlation*. This creates a deep architecture by successively learning *predictors*, each modeling the *residuals* of the previous. 
+- One way to interpret hidden units is as *feature constructors* for a *high dimensional space* where classification can be done with a *perceptron*. 
+- To generate good features, we should allow *long computational paths* 
+- We should also *aggregate information* across different parts of the input. 
+- Neural Networks can be viewed as *computation graphs*. Each layer of a network performs a *matrix* operation on the input *vector*. 
+- Fully connected layers can be problematic because the number of weights *grow quadratically*. 
+- We should let each hidden unit only look at a *local* part of the input. 
+- If the weights connecting a region to hidden units are the same across hidden units, this is called *invariance*
+- In a *convolutional neural network*, we introduce a *kernel*: a set of weights replicated across multiple local regions of the input 

@@ -1,0 +1,12 @@
+- In an ensemble, if we assume all classifiers are *uniform*, the distribution of wrong classifiers is *binomial*. 
+- Many algorithms can get stuck in *local optima*. One reason ensembles do well is because they *avoid* these *local optima* classifiers.
+- An ensemble has a simpler/more complex decision boundary than its constituents. 
+- The optimal way to classify a new example given some training data is given by *Bayesian model averaging*. An ensemble is an *approximation* of this procedure. 
+- What are some downsides of using an ensemble?
+	- **Increased Complexity**: Ensembles often have a more complex decision boundary than individual classifiers, making them harder to interpret and understand.
+	- **Higher Computational Cost**: Training multiple models in an ensemble can be computationally expensive and time-consuming, especially with large datasets.
+	- **Risk of Overfitting**: While ensembles can help avoid local optima, there's a risk that they might overfit the training data, especially if not carefully regulated.
+	- **Difficulty in Model Updates**: Updating an ensemble model can be more challenging than updating a single model, as changes need to be made across multiple underlying models.
+	- **Memory Usage**: Ensembles require more memory for storage and execution, as they consist of multiple models.
+- We can construct an ensemble by *modifying the training set*
+

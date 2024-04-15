@@ -1,0 +1,3 @@
+data:
+1) https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+2)https://www.kaggle.com/competitions/titanic/data

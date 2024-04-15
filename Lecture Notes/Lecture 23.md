@@ -1,0 +1,10 @@
+- Adaboost answers the question: can a *weak learner* be boosted into a *strong learner*?
+- It maintains a *weight* for each example. 
+- Each iteration it builds a *classifier* with the *weighted examples*. If the *weighted training error* of this classifier is 0 or greater than 0.5 it stops.
+- Else, it updates the weight of each example. Correctly classified examples have their weights *decreased*. Incorrect ones have their weights *increased*.
+- The classifiers also have weights, which are *inversely proportional* to their *error*. 
+- For a new example, the label is assigned through a *weighted vote*.
+- Adaboost *exponentially decreases* the training loss as a function of the number of *terms*.
+- This still may not lead to overfitting because Adaboost can also *mitigate* the *model*. Alternatively, using *smaller base classifiers* can prevent overfitting to noise. 
+- How do algorithms like naïve Bayes handle weighted data?
+- What about SVMs?
