@@ -8,7 +8,7 @@ This repository contains all coursework, notes, and projects for the CSDS 440 cl
   - This directory contains materials from the second half of the semester when I was working with a group. It includes code and notes on the Naive Bayes classifier.
 
 - **CSDS440-F23-6**
-  - Contains materials from the first half of the semester when I was solo in the class. This directory focuses on the ID3 algorithm and decision trees.
+  - Contains materials from the first half of the semester when I was solo in the class and is imbued with lost pieces of my sanity. This directory focuses on the ID3 algorithm and decision trees.
 
 - **csds440project-f23-2**
   - This directory includes code and documentation for our final research projects written by my group and me.
